@@ -1,0 +1,12 @@
+import numpy as np
+A=np.array([4,-1])
+B=np.array([-2,-3])
+m=2
+n=1
+P1=(m*B)+(n*A)/(m+n)
+A=np.array([4,-1])
+B=np.array([-2,-3])
+m=1
+n=2
+P2=(m*B)+(n*A)/(m+n)
+print(P1,P2)
